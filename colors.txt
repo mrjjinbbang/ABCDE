@@ -1,0 +1,9 @@
+Logo Color: 56b881
+
+Dark Brown: 3c3837
+
+Dark Green - Mid way from logo color & Dark Brown: 315441
+
+Logo Color - Dark Green: 188e68
+
+Light Beige webpg: ede9e2
