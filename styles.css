@@ -1157,7 +1157,7 @@ footer {
 .gallery-item {
     text-align: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -1165,7 +1165,14 @@ footer {
 .gallery-item img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 3px;
+}
+
+.gallery-item h1 {
+    margin-top: 10px;
+    color: var(--text-color);
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .gallery-item p {
