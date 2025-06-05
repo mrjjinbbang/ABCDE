@@ -18,6 +18,7 @@ body {
 }
 
 header {
+  font-family: 'Pretendard-Regular';
   position: sticky;
   top: 0;
   left: 0;
@@ -64,6 +65,7 @@ nav ul li a {
 }
 
 .hero-text {
+  font-family: 'Pretendard-Regular';
   position: relative;
   z-index: 2;
   display: flex;
@@ -81,11 +83,13 @@ nav ul li a {
 }
 
 .hero-text h1 {
+  font-family: 'Pretendard-Regular';
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
 .hero-text p {
+  font-family: 'Pretendard-Regular';
   font-size: 1rem;
 }
 
@@ -129,12 +133,16 @@ nav ul li a {
 }
 
 .services-title-row {
+  font-family: 'Pretendard-Regular';
+  font-weight: 800;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .services-title-row h2 {
-  font-size: 2.5rem;
+  font-family: 'Pretendard-Regular';
+  font-weight: 800;
+  font-size: 4rem;
   color: #3c3837;
 }
 
@@ -224,12 +232,16 @@ nav ul li a {
   text-align: center;
   background-color: #ede9e2;
   padding-bottom: 30px;
+  font-family: 'Pretendard-Regular';
+  font-weight: 800; 
 }
 
 .services-title {
   font-size: 2rem;
   margin-bottom: 2rem;
   color: #3c3837;
+  font-weight: 800;
+  font-family: 'Pretendard-Regular';
 }
 
 .projects {
@@ -240,11 +252,13 @@ nav ul li a {
 }
 
 .projects-title {
+  font-family: 'Pretendard-Regular';
   color: #ede9e2;
   font-size: 1.75rem; 
 }
 
 .projects-title h2 {
+  font-family: 'Pretendard-Regular';
   font-size: 0.5rem; 
 }
 
