@@ -1103,6 +1103,11 @@ footer {
   margin-bottom: 0.5rem;
   color: #56b881;
 }
+.project-description h4 {
+  margin-top: 0;; 
+  color: #3c3837;
+  margin-bottom: 0.5rem
+}
 
 @media (max-width: 700px) {
   .project-row {
