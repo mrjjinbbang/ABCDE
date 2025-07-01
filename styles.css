@@ -306,12 +306,13 @@ nav ul li a {
 
 .slide-track {
   display: flex;
-  width: calc(250px * 10); /* 10 slides total */
-  animation: scroll 10s linear infinite;
+  width: calc(250px * 6); /* 3 unique logos * 2 repeats = 6 */
+  animation: scroll 20s linear infinite;
 }
 
 .slide {
   width: 250px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1315,4 +1316,151 @@ footer {
 .consent-checkbox label {
   flex: 1;
   line-height: 1.5;
+}
+
+.cta-banner {
+  background-color: #315441;
+  color: #ede9e2;
+  text-align: center;
+  padding: 3rem 2rem;
+  font-family: 'Pretendard-Regular';
+  border-radius: 3px;
+  margin: 3rem auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.cta-banner p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.cta-banner .button {
+  background-color: #56b881;
+  color: #ede9e2;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-banner .button:hover {
+  background-color: #43a047;
+}
+
+@media (max-width: 768px) {
+  .cta-banner {
+    padding: 2rem 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .cta-banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-banner p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .cta-banner .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+.mission-values {
+  background-color: #ede9e2;
+  color: #3c3837;
+  padding: 4rem 2rem;
+  font-family: 'Pretendard-Regular';
+  text-align: center;
+}
+
+.mission {
+  margin-bottom: 4rem;
+}
+
+.mission h2,
+.values h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ccc;
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.values {
+  background-color: #3c3837;
+  color: #ede9e2;
+  padding: 3rem 2rem;
+  border-radius: 6px;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.values-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.value-item {
+  flex: 0 1 250px;
+  text-align: left;
+  color: #ede9e2;
+}
+
+.value-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #56b881;
+}
+
+.value-item p {
+  font-size: 1rem;
+  color: #ede9e2;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .mission-values {
+    padding: 3rem 1.5rem;
+  }
+
+  .mission h2,
+  .values h2 {
+    font-size: 1.5rem;
+  }
+
+  .value-item {
+    text-align: center;
+  }
 }
