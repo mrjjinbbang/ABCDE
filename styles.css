@@ -64,6 +64,12 @@ nav ul li a {
   text-align: right;
 }
 
+.hero-img {
+  width: 80%;
+  height: auto;
+  border-radius: 3px;
+}
+
 .hero-text {
   font-family: 'Pretendard-Regular';
   position: relative;
@@ -75,7 +81,7 @@ nav ul li a {
   text-align: right;
   height: 100%;
   padding: 2rem;
-  max-width: 30%; /* prevents it from going beyond halfway */
+  max-width: 50%; /* prevents it from going beyond halfway */
   margin-left: auto; /* pushes it to the right */
   color: white;
   padding-right: 10%;
@@ -91,6 +97,11 @@ nav ul li a {
 .hero-text p {
   font-family: 'Pretendard-Regular';
   font-size: 1rem;
+}
+
+.tight-line {
+  margin-bottom: 0.1rem;
+  line-height: 1;
 }
 
 .hero::before {
