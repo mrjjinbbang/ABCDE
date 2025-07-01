@@ -1392,6 +1392,12 @@ footer {
   margin-bottom: 4rem;
 }
 
+.mission-img {
+  width: 50%;
+  height: auto;
+  border-radius: 3px;
+}
+
 .mission h2,
 .values h2 {
   font-size: 2rem;
@@ -1463,4 +1469,10 @@ footer {
   .value-item {
     text-align: center;
   }
+
+  .mission-img {
+  width: 80%;
+  height: auto;
+  border-radius: 3px;
+}
 }
