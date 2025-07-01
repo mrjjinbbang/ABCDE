@@ -5,12 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('font/woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard Variable';
   margin: 0;
   padding: 0;
   background-color: #ffffff;
@@ -18,7 +26,7 @@ body {
 }
 
 header {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard Variable';
   position: sticky;
   top: 0;
   left: 0;
@@ -189,8 +197,8 @@ nav ul li a {
 }
 
 .square-text {
+  font-family: 'Pretendard Variable';
   font-size: 1.5rem;
-  font-weight: bold;
   color: #ede9e2;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   padding: 15px;
@@ -199,10 +207,12 @@ nav ul li a {
 
 .square-text h3 {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .square-text p {
   font-size: 0.75rem;
+  font-weight: normal;
 }
 
 .square-1 {
@@ -263,18 +273,18 @@ nav ul li a {
 }
 
 .projects-title {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard Variable';
   color: #ede9e2;
-  font-size: 1.75rem; 
+  font-size: 1.5rem; 
 }
 
 .projects-title h2 {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard Variable';
   font-size: 0.5rem; 
 }
 
 .partners-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   color: #3c3837;
 }
@@ -1334,7 +1344,7 @@ footer {
   color: #ede9e2;
   text-align: center;
   padding: 3rem 2rem;
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard Variable';
   border-radius: 3px;
   margin: 3rem auto;
   max-width: 1000px;
