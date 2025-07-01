@@ -83,7 +83,7 @@ nav ul li a {
   padding: 2rem;
   max-width: 50%; /* prevents it from going beyond halfway */
   margin-left: auto; /* pushes it to the right */
-  color: white;
+  color: #ede9e2;
   padding-right: 10%;
   top: -10%; 
 }
